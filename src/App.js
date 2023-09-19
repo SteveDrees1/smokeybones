@@ -6,7 +6,20 @@ import AccountBoxIcon from '@mui/icons-material/AccountBox';
 function App() {
     return (
         <div>
-            <h1>Steve Drees</h1>
+            <h1>
+                <span className="fire">S</span>
+                <span className="burn">T</span>
+                <span className="burn">E</span>
+                <span className="burn">V</span>
+                <span className="fire">E</span>
+                <span>&nbsp;</span>
+                <span className="fire">D</span>
+                <span className="burn">R</span>
+                <span className="burn">E</span>
+                <span className="burn">E</span>
+                <span className="fire">S</span>
+
+            </h1>
             <nav>
                 <MenuIcon/>
                 <AccountBoxIcon className={"accountIcon"}/>
